@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">FICT</string>
+    <string name="title_activity_attendance">Attendance</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="what_you_would_like_to_do">What you would like to do?</string>
+    <string name="v1_0_0">v1.0.0</string>
+    <string name="event_attendance">Event Attendance</string>
+    <string name="membership_fee">Membership Fee</string>
+    <string name="input_title_here">Input Title Here...</string>
+    <string name="internetsolong">If this takes long, there might be a problem with your internet connection. Please check your settings and router.</string>
+    <string name="title_activity_navigation_main">NavigationMainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">gameoveralisa@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="fee">
+        <item>PAID</item>
+        <item>NOT YET PAID</item>
+    </string-array>
+    <string name="updatetoPaid">PAID</string>
+    <string name="updatetoNotPaid">NOT YET PAID</string>
+
+
+    <string-array name="sections">
+        <item>BS InfoTech - 1st Year - A</item>
+        <item>BS InfoTech - 2nd Year - A</item>
+        <item>BS InfoTech - 3rd Year - A</item>
+        <item>BS InfoTech - 4th Year - A</item>
+        <item>BS ComSci - 1st Year - A</item>
+        <item>BS ComSci - 2nd Year - A</item>
+        <item>BS ComSci - 3rd Year - A</item>
+        <item>BS ComSci - 4th Year - A</item>
+
+    </string-array>
+
+
+    <string-array name="chooseAction">
+        <item>SCAN ONLY</item>
+        <item>SCAN AND PAY</item>
+        <item>SCAN AND REFUND</item>
+    </string-array>
+    <string name="chooseAction1">SCAN ONLY</string>
+    <string name="chooseAction2">SCAN AND PAY</string>
+    <string name="chooseAction3">SCAN AND REFUND</string>
+
+
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="facebook_application_id" translatable="false">316446468992842</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb316446468992842</string>
+    <string name="menu_attendance">Attendance Panel</string>
+    <string name="menu_memberScan">Membership Panel</string>
+    <string name="menu_manageMembers">Manage Registered Users</string>
+    <string name="menu_generator">Generate NFC Tag</string>
+    <string name="menu_logout">Switch Account</string>
+    <string name="menu_title_2">Account</string>
+    <string name="warningMsg">Please enable NFC on your phone settings to unlock more features!</string>
+
+    <string name="no_data_available">No data available to display</string>
+    <string name="members_title">Membership Scanner</string>
+    <string name="menu_title_3">Help</string>
+    <string name="helpNFC">What is NFC?</string>
+    <string name="helpFireBase">Introduction to Firebase</string>
+    <string name="menu_title_1">Tools</string>
+    <string name="menu_title_4">Developer</string>
+    <string name="dev_adminAccount">Authenticated Accounts</string>
+    <string name="dev_adjustYear">Batch Updater</string>
+
+</resources>

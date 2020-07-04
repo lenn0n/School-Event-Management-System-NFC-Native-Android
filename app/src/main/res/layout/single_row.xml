@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/participantsCourse"
+            android:layout_width="313dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/participantsName"
+            android:layout_alignStart="@+id/participantsName"
+            android:layout_alignEnd="@+id/participantsName"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="-2dp"
+            android:text="Course"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.002"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/participantsName"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/participantsDelete"
+            android:layout_width="49dp"
+            android:layout_height="49dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/xmark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/participantsName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Name of Participants"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="13dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+        <TextView
+            android:id="@+id/participantsDate"
+            android:layout_width="308dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/participantsCourse"
+            android:layout_alignStart="@+id/participantsName"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="24dp"
+            android:layout_toStartOf="@+id/participantsDelete"
+            android:text="Date"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.002"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/participantsName"
+            app:layout_constraintVertical_bias="0.0" />
+    </RelativeLayout>
+</LinearLayout>

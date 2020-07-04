@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".Selection.ToolsActivity">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="0dp"
+        android:layout_height="44dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@color/buttonColor" />
+
+    <Button
+        android:id="@+id/dlbutton"
+        android:layout_width="63dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:background="@color/title"
+        android:text="DL"
+        app:layout_constraintBottom_toBottomOf="@+id/tempFolder"
+        app:layout_constraintStart_toEndOf="@+id/tempFolder"
+        app:layout_constraintTop_toTopOf="@+id/tempFolder"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="0dp"
+        android:layout_height="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/buttonColor" />
+
+    <ImageView
+        android:id="@+id/gobackImage"
+        android:layout_width="49dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/title"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+        app:layout_constraintEnd_toEndOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/imageView13"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_home_black_24dp" />
+
+    <Button
+        android:id="@+id/addMember"
+        android:layout_width="98dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="7dp"
+        android:background="@color/title"
+        android:text="Add Member"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        app:layout_constraintTop_toTopOf="@+id/imageView13"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/tempFolder"
+        android:layout_width="63dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="7dp"
+        android:background="@color/title"
+        android:text="Temp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+        app:layout_constraintStart_toEndOf="@+id/imageView16"
+        app:layout_constraintTop_toTopOf="@+id/imageView13"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/imageView13"
+        app:layout_constraintVertical_bias="0.6"
+        app:srcCompat="@drawable/ic_person_add_black_24dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="34dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+        app:layout_constraintStart_toEndOf="@+id/addMember"
+        app:layout_constraintTop_toTopOf="@+id/imageView13"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_folder_special_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Section:"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView7" />
+
+    <EditText
+        android:id="@+id/searchbar"
+        android:layout_width="0dp"
+        android:layout_height="26dp"
+        android:background="@color/gray"
+        android:ems="10"
+        android:hint="Type Name Here..."
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/imageView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/sectionList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/title"
+        android:padding="3dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView26"
+        app:layout_constraintStart_toEndOf="@+id/textView26"
+        app:layout_constraintTop_toTopOf="@+id/textView26" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/sectionRecyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/searchbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+</android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

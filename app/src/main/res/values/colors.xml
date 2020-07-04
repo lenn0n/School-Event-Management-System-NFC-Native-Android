@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1a1a1a</color>
+    <color name="colorPrimaryDark">#212121</color>
+    <color name="colorAccent">#000000</color>
+    <color name="buttonColor">#eaa22e</color>
+    <color name="title">#ffb948</color>
+    <color name="temp">#ff8534</color>
+    <color name="facebook">#0c5ba1</color>
+    <color name="green">#79c572</color>
+    <color name="green2">#94EC06</color>
+    <color name="gray">#434343</color>
+    <color name="red">#ad1d45</color>
+    <color name="refresh">#008000</color>
+    <color name="refresh1">#008080</color>
+    <color name="refresh2">#800080</color>
+    <color name="white">#FFFFFF</color>
+</resources>

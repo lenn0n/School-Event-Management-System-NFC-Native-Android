@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:orientation="vertical">
+
+    <item android:title="@string/menu_title_1">
+        <menu>
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="@string/menu_attendance" />
+        <item
+            android:id="@+id/nav_members"
+            android:icon="@drawable/ic_assignment_ind_black_24dp"
+            android:title="@string/menu_memberScan" />
+
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_title_2">
+        <menu>
+            <item
+                android:id="@+id/nav_tools"
+                android:icon="@drawable/ic_settings_applications_black_24dp"
+                android:title="@string/menu_manageMembers" />
+            <item
+                android:id="@+id/nav_generate"
+                android:icon="@drawable/qrcode"
+                android:title="@string/menu_generator" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_keyboard_backspace_black_24dp"
+                android:title="@string/menu_logout" />
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_title_3">
+        <menu>
+            <item
+                android:id="@+id/nav_help_nfc"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="@string/helpNFC" />
+            <item
+                android:id="@+id/nav_help_firebase"
+                android:icon="@drawable/ic_whatshot_black_24dp"
+                android:title="@string/helpFireBase" />
+
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_title_4">
+        <menu>
+            <item
+                android:id="@+id/nav_dev_adminAccount"
+                android:icon="@drawable/ic_verified_user_black_24dp"
+                android:title="@string/dev_adminAccount" />
+            <item
+                android:id="@+id/nav_dev_adjustYear"
+                android:icon="@drawable/ic_update_black_24dp"
+                android:title="@string/dev_adjustYear" />
+
+        </menu>
+    </item>
+</menu>
